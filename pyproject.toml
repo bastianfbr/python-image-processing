@@ -1,0 +1,10 @@
+[tool.ruff]
+line-length = 88
+select = [
+  "E",  # pycodestyle errors
+  "F",  # pyflakes errors
+  "W",  # pycodestyle warnings
+]
+ignore = [
+  "E501",  # line too long, handled by Ruff
+]
